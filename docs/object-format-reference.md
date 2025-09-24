@@ -114,6 +114,15 @@ objects/
 ```
 - abapGit exports table definitions solely as XML built around `DD02V` (header) and `DD03P` rows (fields). Technical settings live in `DD09L`.
 
+## Table Type (`TTYP`)
+```
+objects/
+  zdemo_table_type.ttyp.abap
+  zdemo_table_type.ttyp.xml
+```
+- Table types are defined by an XML file containing the `DD40V` structure.
+- The ABAP file is optional and typically empty.
+
 ## Text Symbols (`TPOOL`)
 - abapGit serializes text symbols by copying the SAP text pool entries into the object's XML under `<TPOOL>`.
 - Each symbol appears as a child `<TPOOL>` node with the native fields: `ID` (type, e.g. `I` for text element or `R` for selection text), `KEY` (text ID or selection name), `ENTRY` (the text itself), plus `LANGU`, `LENGTH`, etc. when available.
