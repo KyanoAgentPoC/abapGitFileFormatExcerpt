@@ -1,13 +1,15 @@
 # abapGitFileFormatExcerpt
 
-This repository packages a focused set of files copied from the community abapGit project so agentic ABAP development tools have a concrete reference for how repository objects are structured on disk.
-
-The primary intent is to accelerate the creation of new ABAP objects that will be synchronized through abapGit. By reusing these examples, an agent can emit correctly named files, folders, and metadata so the generated objects round-trip cleanly between the ABAP system and the Git repository.
+This repository distills the essentials an agent needs to emit abapGit-compatible repository objects. Instead of shipping the whole abapGit implementation, it now contains:
+- Concise format notes in `docs/object-format-reference.md` describing file stems, required XML payloads, and optional includes for common object types.
+- Lightweight sample artefacts under `examples/` that show how a minimal class, interface, program, function group, and other dictionary objects serialize to disk.
+- The upstream `supported_object_types.json` table to cross-check which SAP repository objects abapGit can serialize.
 
 ## How to use this repository
-- Inspect the sample objects to understand the expected file layout, metadata, and naming conventions abapGit relies on.
-- Use the patterns as templates when programmatically generating new ABAP development objects for abapGit synchronization.
-- Keep the excerpts read-only unless you purposely want to expand the catalog with more reference objects.
+- Start with the reference guide to learn which files you must emit for a given object type.
+- Copy the stubs in `examples/` when you need concrete files to feed into abapGit or extend them with your generated logic.
+- Treat the samples as blueprints: keep the file names, extensions, and XML scaffolding intact while swapping in your content.
 
 ## Source
-All excerpts originate from https://github.com/abapGit/abapGit and remain subject to the same license terms.
+Source snippets and structure conventions originate from the community project https://github.com/abapGit/abapGit and remain subject to the same license terms.
+

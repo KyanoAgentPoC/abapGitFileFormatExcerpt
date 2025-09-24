@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<abapGit version='v1.0.0' serializer='LCL_OBJECT_SHLP' serializer_version='v1.0.0'>
+  <asx:abap xmlns:asx='http://www.sap.com/abapxml' version='1.0'>
+    <asx:values>
+      <DD30V>
+        <SHLPNAME>ZDEMO_SEARCH</SHLPNAME>
+        <DDLANGUAGE>E</DDLANGUAGE>
+        <TEXT>Demo elementary search help</TEXT>
+      </DD30V>
+      <DD31V>
+        <DD31V>
+          <SHLPNAME>ZDEMO_SEARCH</SHLPNAME>
+          <FIELDNAME>TABLE_NAME</FIELDNAME>
+        </DD31V>
+      </DD31V>
+    </asx:values>
+  </asx:abap>
+</abapGit>

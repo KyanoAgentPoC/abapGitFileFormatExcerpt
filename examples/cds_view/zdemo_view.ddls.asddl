@@ -1,0 +1,5 @@
+@AbapCatalog.sqlViewName: 'ZDEMO_VIEW'
+@EndUserText.label: 'Demo CDS view for abapGit'
+defined view ZDEMO_VIEW
+  as select from dd02l
+  fields tabname as TableName
