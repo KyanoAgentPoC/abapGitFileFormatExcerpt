@@ -1,0 +1,1064 @@
+[
+  {
+    "type": "ACID",
+    "description": "Checkpoint Group",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "AIFC",
+    "description": "Objects from AIF content",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "AMSD",
+    "description": "Logical Database Schema",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "AOBJ",
+    "description": "Archiving Object",
+    "supported": "#804",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "APIS",
+    "description": "API Release State",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "APLO",
+    "description": "Application Log Objects",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "AQBG",
+    "description": "ABAP Query: User group",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "AQQU",
+    "description": "ABAP Query: Query",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "AQSG",
+    "description": "ABAP Query: Functional area",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "AREA",
+    "description": "BW: InfoArea",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "ASFC",
+    "description": "Field Catalog",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "ASIS",
+    "description": "Archiving Information Structure",
+    "supported": "#1579",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "AUTH",
+    "description": "Authorization Check Fields",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "AVAR",
+    "description": "Activation Variants for Assertions and Breakpoints",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "AVAS",
+    "description": "Classification",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "BDEF",
+    "description": "Behaviour Definition",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "BGQC",
+    "description": "Background Processing Context",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "BMFR",
+    "description": "Application Component",
+    "supported": "#2108",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "BOBF",
+    "description": "BOPF: Business Object Model",
+    "supported": "#165",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "CDBO",
+    "description": "Custom Data Browser Object",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "CHAR",
+    "description": "Object characteristic",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "CHDO",
+    "description": "Change Document Object",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "CHKC",
+    "description": "ATC Check Category",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "CHKO",
+    "description": "ATC Check",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "CHKV",
+    "description": "ATC Check Variant",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "CLAS",
+    "description": "Class (ABAP Objects)",
+    "supported": "Yes",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "CMOD",
+    "description": "Customer enhancement projects",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "CMPT",
+    "description": "Code Composer Template",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "COTA",
+    "description": "Communication Target",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "CUS0",
+    "description": "Customizing IMG Activity",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "CUS1",
+    "description": "Customizing Transactions",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "CUS2",
+    "description": "Customizing Attributes",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "DCLS",
+    "description": "ABAP Data Control Language Sources",
+    "supported": "Yes",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "DDLS",
+    "description": "Data Definition Language Source",
+    "supported": "Yes",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "DDLX",
+    "description": "CDS metadata extension",
+    "supported": "Yes",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "DEVC",
+    "description": "Package",
+    "supported": "Yes",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "DIAL",
+    "description": "Dialog Module",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "DOCT",
+    "description": "General Text",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "DOCV",
+    "description": "Documentation (Independent)",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "DOMA",
+    "description": "Domain",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "DRAS",
+    "description": "CDS Aspect",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "DRTY",
+    "description": "CDS Type",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "DRUL",
+    "description": "Dependency Rule",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "DSFD",
+    "description": "CDS Scalar Function Definition",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "DSFI",
+    "description": "CDS Scalar Function Implementation",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "DSYS",
+    "description": "Chapter of a Book Structure",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "DTDC",
+    "description": "Dynamic Cache",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "DTEB",
+    "description": "CDS Entity Buffer",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "DTEL",
+    "description": "Data Element",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "ECAT",
+    "description": "eCATT Test Script",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "ECSD",
+    "description": "eCATT System Data Container",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "ECSP",
+    "description": "eCATT Start Profile",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "ECTC",
+    "description": "eCATT Test Configuration",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "ECTD",
+    "description": "eCATT Test Data Container",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "ECVO",
+    "description": "eCATT Validation Object",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "EEEC",
+    "description": "Event Consumption Model",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "ENHC",
+    "description": "Composite Enhancement Implementation",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "ENHO",
+    "description": "Enhancement Implementation",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "ENHS",
+    "description": "Enhancement Spot",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "ENQU",
+    "description": "Lock Object",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "ENSC",
+    "description": "Composite Enhancement Spot",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "EVTB",
+    "description": "Event Binding",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "FDT0",
+    "description": "FDT/BRFplus: System Application",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "FDT1",
+    "description": "FDT/BRFplus: Customizing Application",
+    "supported": "#33",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "FORM",
+    "description": "SAPscript form",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "FTGL",
+    "description": "Feature Toggle",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "FUGR",
+    "description": "Function Group",
+    "supported": "Yes",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "FUGS",
+    "description": "Function Group with Customer Include: SAP Part",
+    "supported": "Yes",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "FUGX",
+    "description": "Function Group with Customer Include: Customer Part",
+    "supported": "#2851",
+    "abapLanguageVersion": "Unknown"
+  },
+  {
+    "type": "G4BA",
+    "description": "SAP Gateway OData V4 Backend Service Group & Assignments",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "G4BS",
+    "description": "SAP Gateway OData V4 Backend Service",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "GSMP",
+    "description": "Generic Simple Metric Provider",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "HTTP",
+    "description": "HTTP Destination",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "IAMU",
+    "description": "Language-Independent IAC Binary Data",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "IARP",
+    "description": "Parameters of IAC Language Resource",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "IASP",
+    "description": "Parameters of an IAC service",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "IATU",
+    "description": "Language-Independent IAC Templates",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "IAXU",
+    "description": "ITS: XML Templates for HTML Templates",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "IDOC",
+    "description": "IDoc Type",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "IEXT",
+    "description": "Enhancement",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "INTF",
+    "description": "Interface (ABAP objects)",
+    "supported": "Yes",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "IOBJ",
+    "description": "BW: InfoObject",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "IWMO",
+    "description": "Gateway Business Suite Enablement - Model",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "IWOM",
+    "description": "Gateway: Model Metadata",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "IWPR",
+    "description": "Gateway Business Suite Enablement - Service Builder Project",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "IWSG",
+    "description": "Gateway: Service Groups Metadata",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "IWSV",
+    "description": "Gateway Business Suite Enablement - Service",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "IWVB",
+    "description": "SAP Gateway Business Suite Enablement -Vocabulary Annotation",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "JOBD",
+    "description": "Technical Job Definition",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "LPDC",
+    "description": "Launchpad short texts",
+    "supported": "#107",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "MSAG",
+    "description": "Message Class",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "NONT",
+    "description": "SAP Object Type Node",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "NROB",
+    "description": "Number Range Objects",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "NSPC",
+    "description": "Namespace in R/3 Repository",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "OA2P",
+    "description": "OAuth2 Profile",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "ODSO",
+    "description": "BW: DataStore Object",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "OTGR",
+    "description": "Object type group",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "PARA",
+    "description": "SPA/GPA Parameters",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "PDAC",
+    "description": "Standard Rule",
+    "supported": "#3914",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "PDTG",
+    "description": "Task Group",
+    "supported": "#3915",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "PDTS",
+    "description": "Standard Task",
+    "supported": "partial - #4164",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "PDWS",
+    "description": "Workflow templates",
+    "supported": "#154",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "PERS",
+    "description": "Personalization object",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "PINF",
+    "description": "Package interface",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "PRAG",
+    "description": "Pragma in ABAP Source Code",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "PROG",
+    "description": "Program",
+    "supported": "Yes",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "RONT",
+    "description": "SAP Object Type",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "SAJC",
+    "description": "Application job catalog entry",
+    "supported": "#1580",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SAJC",
+    "description": "Application Job Catalog Entry",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "SAJT",
+    "description": "Application job template",
+    "supported": "1581",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SAJT",
+    "description": "Application Job Templates",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "SAMC",
+    "description": "ABAP Messaging Channels",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SAPC",
+    "description": "ABAP Push Channels",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SCP1",
+    "description": "BC Set or Customizing Profile",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SCVI",
+    "description": "Screen Variants",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SFBF",
+    "description": "Business Function + Assignment",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SFBS",
+    "description": "Business Function Set + Assignment",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SFPF",
+    "description": "Form Object: Form",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SFPI",
+    "description": "Form Object: Interface",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SFSW",
+    "description": "Switch + Assignment of Objects to the Switch",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SHI3",
+    "description": "General structure storage: Definition of a structure",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SHI5",
+    "description": "Gen. hierarchy storage extension name",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SHI8",
+    "description": "SFW Switch Assignment in Hierarchy Tool",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SHLP",
+    "description": "Search Help",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SHMA",
+    "description": "Shared Objects: Defined Area Attributes",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SICF",
+    "description": "ICF Service",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SKTD",
+    "description": "Knowledge Transfer Document",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "SMBC",
+    "description": "Business Configuration Maintenance Objects",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "SMIM",
+    "description": "Info Object from the MIME Repository",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "SMTG",
+    "description": "OM: Email Template",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SOBJ",
+    "description": "Business Object Type",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SOD1",
+    "description": "API Package",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SOD2",
+    "description": "API Package Assignment",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SOTS",
+    "description": "All Concepts (OTR) of a Package - Long Texts",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SPLO",
+    "description": "Format Types",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SPPF",
+    "description": "Page Format",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SPRX",
+    "description": "Proxy Object",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SQSC",
+    "description": "Database Procedure Proxy",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SRFC",
+    "description": "RFC Service",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SRVB",
+    "description": "Service Binding",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "SRVD",
+    "description": "Service Definition",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "SSFO",
+    "description": "SAP Smart Form",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SSST",
+    "description": "SAP Smart Style",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "STVI",
+    "description": "Transaction Variants",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "STYL",
+    "description": "SAPscript style",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SUCU",
+    "description": "Authorization Groups (TBRG_AUTH)",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SUSC",
+    "description": "Authorization object class",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SUSH",
+    "description": "Assignment: Service --> Authorization Objects",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "SUSO",
+    "description": "Authorization object",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "SWCR",
+    "description": "Software Component Relations",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "SXCI",
+    "description": "Business Add-Ins - Implementations",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "SXSD",
+    "description": "BADI Definition",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "TABL",
+    "description": "Table",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "TABU",
+    "description": "Table Data",
+    "supported": "Yes, Data Config",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "TOBJ",
+    "description": "Definition of a Maintenance and Transport Object",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "TRAN",
+    "description": "Transaction",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "TTYP",
+    "description": "Table Type",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "TYPE",
+    "description": "Type Group",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "UCSA",
+    "description": "Unified Connectivity Service Assembly",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "UDMO",
+    "description": "Data model",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "UENO",
+    "description": "Entity type",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "UIAD",
+    "description": "Launchpad App Descriptor Item",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "UIPG",
+    "description": "Fiori Launchpad Page Template",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "UIST",
+    "description": "Fiori Launchpad Space Template",
+    "supported": "Yes, AFF",
+    "abapLanguageVersion": "Yes"
+  },
+  {
+    "type": "VCLS",
+    "description": "View cluster",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "VIEW",
+    "description": "View",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "W3HT",
+    "description": "Web Reporting/Internet Transaction Server HTML Templates",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "W3MI",
+    "description": "Web Reporting/Internet Transaction Server MIME Types(binary",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "WAPA",
+    "description": "BSP (Business Server Pages) Application",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "WDCA",
+    "description": "Web Dynpro Application Configuration",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "WDCC",
+    "description": "Web Dynpro Component Configuration",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "WDYA",
+    "description": "Web Dynpro Application",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "WDYN",
+    "description": "Web Dynpro Component",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "WEBI",
+    "description": "Virtual End Point",
+    "supported": "Yes",
+    "abapLanguageVersion": "No"
+  },
+  {
+    "type": "XINX",
+    "description": "Extension Index",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "XSLT",
+    "description": "Transformation",
+    "supported": "Yes",
+    "abapLanguageVersion": "Planned"
+  },
+  {
+    "type": "ZN**",
+    "description": "Neptune Artifact",
+    "supported": "Via Extension",
+    "abapLanguageVersion": "N/A"
+  }
+]
