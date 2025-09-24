@@ -1,2 +1,2 @@
 # abapGitFileFormatExcerpt
-Excerpt of files from abapGit to define file formats for AI agents
+These are just files copied from the official community abapGit repository to aid AI agents in understanding which repository objects they can create and which file formats and structures to use.
