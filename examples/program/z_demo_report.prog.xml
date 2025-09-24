@@ -7,6 +7,26 @@
         <SUBC>1</SUBC>
         <RLOAD>E</RLOAD>
       </PROGDIR>
+      <TPOOL>
+        <TPOOL>
+          <ID>I</ID>
+          <KEY>001</KEY>
+          <ENTRY>Demo report title</ENTRY>
+          <LANGU>E</LANGU>
+        </TPOOL>
+        <TPOOL>
+          <ID>S</ID>
+          <KEY>SEL_DEMO</KEY>
+          <ENTRY>Selection option description</ENTRY>
+          <LANGU>E</LANGU>
+        </TPOOL>
+        <TPOOL>
+          <ID>S</ID>
+          <KEY>SEL_DEMO</KEY>
+          <ENTRY>Selektionsoption Beschreibung</ENTRY>
+          <LANGU>D</LANGU>
+        </TPOOL>
+      </TPOOL>
     </asx:values>
   </asx:abap>
 </abapGit>

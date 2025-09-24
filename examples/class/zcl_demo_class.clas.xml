@@ -7,6 +7,20 @@
         <LANGU>E</LANGU>
         <STATE>1</STATE>
       </VSEOCLASS>
+      <TPOOL>
+        <TPOOL>
+          <ID>I</ID>
+          <KEY>001</KEY>
+          <ENTRY>Demo class title</ENTRY>
+          <LANGU>E</LANGU>
+        </TPOOL>
+        <TPOOL>
+          <ID>I</ID>
+          <KEY>001</KEY>
+          <ENTRY>Demo-Klassentitel</ENTRY>
+          <LANGU>D</LANGU>
+        </TPOOL>
+      </TPOOL>
     </asx:values>
   </asx:abap>
 </abapGit>

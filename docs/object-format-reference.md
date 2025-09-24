@@ -31,6 +31,7 @@ objects/
   </abapGit>
   ```
 - Optional includes (locals, macros, testclasses) become extra files named `zcl_demo_class.clas.locals_imp.abap` etc.
+- Text symbols are emitted in the companion XML inside the `<TPOOL>` block (see the dedicated section below).
 
 ## Interface (`INTF`)
 ```
@@ -48,6 +49,7 @@ objects/
   z_demo_report.prog.xml
 ```
 - ABAP program files are flat source reports; the XML encapsulates the `REPOSITORY_OBJECT` structure (`PROGDIR`, `TPOOL`).
+- Include any text elements, selection texts, and headings as `<TPOOL>` entries so the program receives the correct text pool when imported.
 
 ## Function Group (`FUGR`)
 ```
@@ -58,6 +60,7 @@ objects/
 ```
 - Function pools split across TOP include, main include, and function include files named `L`/`SAPL` + group.
 - XML lists metadata nodes `TLIBG` (attributes) and `LIMU` entries for released function modules.
+- Text pools for the includes live in the same XML under `<TPOOL>`.
 
 ## Package (`DEVC`)
 ```
@@ -110,6 +113,14 @@ objects/
   zdemo_table.tabl.xml
 ```
 - abapGit exports table definitions solely as XML built around `DD02V` (header) and `DD03P` rows (fields). Technical settings live in `DD09L`.
+
+## Text Symbols (`TPOOL`)
+- abapGit serializes text symbols by copying the SAP text pool entries into the object's XML under `<TPOOL>`.
+- Each symbol appears as a child `<TPOOL>` node with the native fields: `ID` (type, e.g. `I` for text element or `R` for selection text), `KEY` (text ID or selection name), `ENTRY` (the text itself), plus `LANGU`, `LENGTH`, etc. when available.
+- To add or change text symbols, edit these entries in the XML; upon import abapGit calls the standard `INSERT TEXTPOOL` APIs so the ABAP runtime sees the updated texts.
+- Provide separate `<TPOOL>` sections for every language you need. abapGit will overwrite the existing pool for the same object/language during deserialization.
+- Programs, class pools, and function groups all use this mechanism, so text maintenance stays consistent across object types.
+- Sample implementations in this repository: `examples/class/zcl_demo_class.clas.xml`, `examples/program/z_demo_report.prog.xml`, and `examples/function_group/zfg_demo.fugr.xml` show English and German text entries.
 
 ## General Tips
 - Always include transport layer and package assignments in XML when available (`DEVCLASS`, `DLVUNIT`).

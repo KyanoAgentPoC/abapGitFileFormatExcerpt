@@ -6,6 +6,20 @@
         <AREA>ZFG_DEMO</AREA>
         <LANGU>E</LANGU>
       </TLIBG>
+      <TPOOL>
+        <TPOOL>
+          <ID>I</ID>
+          <KEY>001</KEY>
+          <ENTRY>Demo function group</ENTRY>
+          <LANGU>E</LANGU>
+        </TPOOL>
+        <TPOOL>
+          <ID>I</ID>
+          <KEY>001</KEY>
+          <ENTRY>Funktionsgruppe Demo</ENTRY>
+          <LANGU>D</LANGU>
+        </TPOOL>
+      </TPOOL>
     </asx:values>
   </asx:abap>
 </abapGit>
